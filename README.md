@@ -1,5 +1,6 @@
 # M2
 
+### M2 is an amazing collection of information about sites.
 
 # M2 The script contains 11 of the best tools to collect information about the sites:
 1- VEGA
