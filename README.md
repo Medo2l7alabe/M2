@@ -37,16 +37,14 @@ This tool brings all the information about the site such as pictures, themes, et
 Happy Hacker.
 
 ```
+## :octocat: Screenshots ###
 # How to start a script?
 ```
 $ cd M2
-```
-```
+
 $ bash install.sh
-```
-```
+
 $ bash M2.sh
-```
 
-
+c4eadfa96935a9b21d40675ed4d9410d6c2b1d21
 
