@@ -1,5 +1,7 @@
 # M2
+```
 M2 is an amazing collection of information about sites.
+```
 # M2 The script contains 11 of the best tools to collect information about the sites:
 1- VEGA
 One of the most powerful tools in the examination of sites of the gaps and determine the type of flaw accurately.
@@ -45,3 +47,4 @@ $ cd M2
 $ bash install.sh
 
 $ bash M2.sh
+
