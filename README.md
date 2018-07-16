@@ -6,7 +6,7 @@
 1- VEGA
 One of the most powerful tools in the examination of sites of the gaps and determine the type of flaw accurately.
 
-2-MALTEGO 
+2- MALTEGO 
 It is one of the best and most powerful tools in collecting information on all levels, sites and non - sites.
 
 3- WHATWEB
@@ -21,7 +21,7 @@ This tool retrieves all emails associated with the site as well as all the domai
 6- NIKTO
 This tool extracts vulnerable holes.
 
-7-GOLISMERO 
+7- GOLISMERO 
 This tool performs a complete and comprehensive examination of the site through most information collection tools.
 
 8- NMAP
@@ -30,7 +30,7 @@ The amazing tool in the examination of the location of all open portals with the
 9- WORDLIST
 The tool that makes any Wordlist you want without problems and superbly.
 
-10-WAPITI 
+10- WAPITI 
 This tool scans the site for gaps while giving you
 Also loopholes.
 
