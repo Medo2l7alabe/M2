@@ -25,4 +25,3 @@ Also loopholes.
 11- HTTRACK
 This tool brings all the information about the site such as pictures, themes, etc. .....
 Happy Hacker.
-s specialized in collecting information about sites
