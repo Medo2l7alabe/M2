@@ -1,10 +1,22 @@
 # M2
 
-### M2 is an amazing collection of information about sites.
+# M2 contains the best tools for gathering information about sites, a section for solving most problems of the Kali Linux system, and the best section in the script, the metasploit section specialized in hacking operations.
 
-# M2 The script contains 11 of the best tools to collect information about the sites:
-1- VEGA
-One of the most powerful tools in the examination of sites of the gaps and determine the type of flaw accurately.
+### Section One:
+This section is dedicated to fixing common system problems.
+1- Update sources.list
+2- Upgrade System Kali
+3- Update and Clean Kali
+4- Fix Sound Problem
+5- fix Problem the Bluetooth
+6- Fix Problem the VPN
+7- Solve copying problem and zoom the screen (VMware)
+
+### Section Two:
+Section Two:
+This section is specialized in collecting information about websites, international phone numbers, some operations to extract your IP and other special commands.
+1- Phoneinfoga
+One of the best tools for collecting information about mobile phone numbers, such as the country, line type, and the number's activity on social media in general.
 
 2- MALTEGO 
 It is one of the best and most powerful tools in collecting information on all levels, sites and non - sites.
@@ -36,6 +48,18 @@ Also loopholes.
 
 11- HTTRACK
 This tool brings all the information about the site such as pictures, themes, etc. .....
+
+### Third Section:
+This section belongs to the Metasploit project, which specializes in hacking operations for Android, Windows, Mac, and others
+1- Android
+2- Windows
+3- Linux
+4- Iso
+5- Python
+6- Mac
+
+##Thank you very much and I wish you all the best
+Do not forget me for your support and goodbye
 
 Happy Hacker.
 
