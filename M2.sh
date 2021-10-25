@@ -270,7 +270,7 @@ echo ""
 echo "Please wait a little..."
 sleep 2
 curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
-sudo mv ./phoneinfoga /root/Desktop/phoneinfoga
+sudo mv ./phoneinfoga /usr/bin/phoneinfoga
 fi
 if [ $phone = 2 ]
 then
