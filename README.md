@@ -4,17 +4,25 @@
 
 ### Section One:
 This section is dedicated to fixing common system problems.
+
 1- Update sources.list
+
 2- Upgrade System Kali
+
 3- Update and Clean Kali
+
 4- Fix Sound Problem
+
 5- fix Problem the Bluetooth
+
 6- Fix Problem the VPN
+
 7- Solve copying problem and zoom the screen (VMware)
 
 ### Section Two:
 Section Two:
 This section is specialized in collecting information about websites, international phone numbers, some operations to extract your IP and other special commands.
+
 1- Phoneinfoga
 One of the best tools for collecting information about mobile phone numbers, such as the country, line type, and the number's activity on social media in general.
 
